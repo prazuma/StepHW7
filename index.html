@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+    <title>STEP HW7</title>
+  </head>
+  <body>
+    <ol>
+      <li>
+	<a href = "/convert?message=test">/convert?message=test</a>
+      	<form meghod = "get" action = "convert">
+	  <input type = "text" name = "message" size = "42">
+	  <input type = "submit" value = "convert">
+	</form>
+      </li>
+      <li>
+	<a href = "/show?message=test">/show?message=test</a>
+	<form meghod = "get" action = "show">
+	  <input type = "text" name = "message" size = "42">
+	  <input type = "submit" value = "show">
+	</form>
+      </li>
+      <li>
+	<a href = "/getword?pos=animal">/getword?pos=animal</a>
+	<form meghod = "get" action = "getword">
+	  <select name = "pos">
+	    <option value = ""></option>
+	    <option value = "verb">verb</option>
+	    <option value = "noun">noun</option>
+	    <option value = "adjective">adjective</option>
+	    <option value = "adverb">adverb</option>
+	    <option value = "animal">animal</option>
+	    <option value = "name">name</option>
+	    <option value = "exclaimation">exclaimation</option>
+	  </select>
+	  <input type = submit value = "getword">
+	</form>
+      </li>
+      <li>
+	<a href = "/madlib">/madlib</a>
+	<form method = "get" action = "madlib">
+	  <input type = submit value = "madlib">
+	</form>
+      </li>
+    </ol>
+  </body>
+</html>
